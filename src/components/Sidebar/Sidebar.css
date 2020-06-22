@@ -1,0 +1,104 @@
+.sidenav1 {
+    text-align: center;
+    align-items: center;
+     width: 0; 
+     /* height: 100px;  */
+    position: absolute;
+    z-index: 1;
+    top: 32rem;
+    left: 81.3rem;
+    /* background: #eee; */
+     /* overflow-x: hidden;  */
+    padding: 0px 0;
+  }
+  
+  .sidenav1  a{
+      width: 5rem;
+      /* height: 1.2rem; */
+      /* position: absolute; */
+      background-color: tomato;
+      text-decoration: none;
+      border-radius: .2rem;
+     /* text-align: center; */
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    display: block;
+    transform: rotate(-90deg);
+    transition: .5s ease;
+  }
+  
+  .sidenav1 a:hover {
+    /* color: #064579; */
+    background-color: white;
+    color: tomato;
+    text-decoration: none;
+    border: 1px solid tomato;
+  }
+
+
+
+
+  .sidenav2 {
+    text-align: center;
+    align-items: center;
+     width: 0; 
+     /* height: 100px;  */
+    position: absolute;
+    z-index: 1;
+    top: 37rem;
+    left: 82.3rem;
+    /* background: #eee; */
+     /* overflow-x: hidden;  */
+    padding: 0px 0;
+  }
+  
+  .sidenav2  a{
+      width: 3rem;
+      /* height: 1.1rem; */
+      /* position: absolute; */
+      background-color: tomato;
+      text-decoration: none;
+      border-radius: .2rem;
+     /* text-align: center; */
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    display: block;
+    transform: rotate(-90deg);
+    transition: .5s ease;
+  }
+  
+  .sidenav2 a:hover {
+    /* color: #064579; */
+    background-color: white;
+    color: tomato;
+    text-decoration: none;
+    border: 1px solid tomato;
+  }
+
+  /* @media(max-width: 768px){
+      .sidenav1 {
+        top: 15rem;
+        left: 27.1rem !important;
+      }
+
+      .sidenav2 {
+        top: 23rem;
+        left: 28.1rem !important;
+      }
+  } */
+
+  @media(max-width: 283px){
+    .sidenav1 {
+      top: 15rem;
+      left: 14.9rem !important;
+    }
+
+    .sidenav2 {
+      top: 23rem;
+      left: 15.9rem !important;
+    }
+}

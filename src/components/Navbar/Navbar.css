@@ -1,0 +1,64 @@
+.ml-logo{
+    margin-left: 9rem;
+    /* padding-left: 10px; */
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:hover{
+    /* border: 2px solid rgba(0 ,0, 0, .5) !important; */
+    /* text-decoration: none !important; */
+}
+
+.navbar-toggler-icon{
+    /* color: rgba(0 ,0, 0, .8) !important; */
+}
+
+.nav-font{
+    font-weight: bold;
+    color: black !important;
+    font-size: 12px !important;
+    margin: 0 10px;
+}
+
+.fa-user{
+    /* font-weight: bold; */
+    color: black !important;
+    font-size: 16px !important;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin: 0 15px;
+    /* padding: 0 6px; */
+}
+.fa-shopping-bag{
+    font-size: 25px ;
+    margin: 0 30px;
+}
+
+.navaccounticon{
+    transition: .2s;
+}
+
+.navaccounticon:hover{
+    border: 2px solid transparent;
+    border-radius: .25rem;
+    box-shadow: 0 0 5px rgba(0 ,0, 0, .5);
+    cursor: pointer;
+}
+
+.box-bg{
+    background-color:rgba(220,220,220,.3) !important;
+}
+
+@media(max-width: 768px){
+    .ml-logo{
+        margin-left: 0;
+        /* padding-left: 10px; */
+    }
+    .box-bg,
+    .fa-shopping-bag{
+        display: none !important;
+    }
+   
+}

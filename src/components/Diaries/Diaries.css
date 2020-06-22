@@ -1,0 +1,48 @@
+.card{
+    width: 90% !important;
+    border: none !important;
+    /* padding: 0 4rem 0 0 !important; */
+    /* margin: 0 20px !important; */
+}
+
+.slick-arrow,
+.slick-prev{
+    /* color: black !important; */
+    background-color: #2c302e;
+    /* border: 2px solid black !important; */
+    
+    border-radius: .55rem !important;
+    /* font-size: 2rem !important; */
+    /* scale: 2rem !important; */
+    width: 2rem;
+    height: 2rem;
+    /* padding: 0 2rem; */
+    z-index: 1;
+    margin: -1rem 2rem 0 1rem !important;
+}
+
+.slick-arrow:hover,
+.slick-arrow:active,
+.slick-arrow:focus,
+.slick-prev:hover,
+
+.slick-prev:focus{
+    background-color: black;
+}
+
+.slick-slider{
+    /* width: 80% !important; */
+    /* padding: .01rem !important; */
+    margin: 0 100px !important;
+}
+
+@media(max-width: 768px){
+    .slick-slider{
+        margin: 0 30px !important;
+    }
+}
+
+.slick-track{
+    /* padding: 10px; */
+}
+

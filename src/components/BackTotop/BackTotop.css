@@ -1,0 +1,84 @@
+
+.btoticon{
+    font-size: 1.8rem;
+    align-self: baseline;
+    border-radius: 50%;
+    margin: 0 5px 0 0;
+    padding: .3rem 8px 0 8px !important;
+    background-color: rgba(255,8,127,1);
+    height: 2.5rem;
+    color: white;
+}
+.btoticon:hover{
+    /* border: 2px solid white; */
+}
+
+.socialicon{
+    font-weight: bolder;
+    padding: 0 1rem;
+    color: rgba(0,0,0,.8);
+    /* background-color: red; */
+    /* width: 30%; */
+    /* align-items: baseline ; */
+    transition: .5s;
+}
+.socialicon:hover{
+    /* border: 2px solid rgba(0,0,0,.8); */
+    color: black;
+}
+.btotopbtn{
+    transition: .2s;
+}
+.btotopbtn:hover{
+        border: 2px solid white;
+        color: white;
+        border-top: none;
+}
+
+
+
+/* 
+@media(max-width: 768px){
+
+.btotopbtn{
+    margin: 0 0 0 9rem !important;
+    scroll-behavior: smooth !important;
+    transition: .5s ease;
+    cursor: pointer !important;
+   
+}
+
+
+ .storefont, .mapimg{
+    display: none !important;
+}
+
+.copyright{
+    margin: 0 0 0 5rem !important;
+}
+
+ }  */
+
+
+@media(max-width: 283px){
+
+    .btotopbtn{
+        margin: 0 0 0 4.5rem !important;
+        
+    }
+    
+    
+    .storefont, .mapimg{
+        display: none !important;
+    }
+    
+    .copyrightline{
+        width: 10rem !important;
+    }
+
+    .copyright{
+        margin: 0 0 0 0rem !important;
+        font-size: 2px !important;
+    }
+    
+    }

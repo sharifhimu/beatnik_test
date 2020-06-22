@@ -1,0 +1,38 @@
+.card{
+    width: 70% !important;
+    border: none !important;
+}
+
+.slick-arrow,
+.slick-prev{
+    /* color: black !important; */
+    /* background-color: white !important; */
+    /* border: 2px solid black !important; */
+}
+
+.slick-arrow:hover,
+
+.slick-arrow:focus,
+.slick-prev:hover,
+
+.slick-prev:focus{
+    background-color: black;
+}
+
+.slick-slider{
+    /* width: 80% !important; */
+    /* padding: .01rem !important; */
+}
+.slick-track{
+    /* padding: 10px; */
+}
+
+.bestsellerview{
+    transition: .2s;
+    cursor: pointer;
+}
+
+.bestsellerview:hover{
+    background-color: rgba(0,0,0,.2);
+    border-radius: .25rem;
+}

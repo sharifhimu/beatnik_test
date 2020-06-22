@@ -1,0 +1,18 @@
+.icondiv{
+    display: flex;
+    justify-content: left;
+    padding: 0 !important;
+    margin: 0 10px 0 0;
+}
+
+.whole{
+    background-image: url(https://image.freepik.com/free-vector/colorful-liquid-shapes-background_23-2148160600.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+@media(max-width: 768px){
+    .whole{
+        display: none !important;
+    }
+}

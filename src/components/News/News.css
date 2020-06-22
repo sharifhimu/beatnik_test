@@ -1,0 +1,60 @@
+.cards{
+    width: 80%;
+    margin: 0 0 0 6rem !important;
+}
+
+@media(max-width: 283px){
+    .cards{
+        
+        margin: 0 0 0 2rem !important;
+    }
+}
+
+.singlecard{
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+
+.cardimg{
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.cardslink{
+    /* text-align: left !important; */
+    text-decoration: none !important;
+    color: rgba(0,0,0,.9);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: .5s;
+}
+.cardslink:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.listitem{
+    display: flex !important;
+    text-align: left;
+
+    /* padding: 5px 0 !important; */
+    /* justify-content: left !important; */
+}
+
+.viewall{
+    text-decoration: none !important;
+    margin: 3rem 0 0 0 ;
+    background-color: navy;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    width: 9rem;
+    height: 2rem;
+    transition: .2s;
+    /* padding: 2rem; */
+}
+
+.viewall:hover{
+    background-color: white;
+    color: navy;
+    border: 1px solid navy;
+}
