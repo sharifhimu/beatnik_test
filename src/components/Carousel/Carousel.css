@@ -37,7 +37,7 @@
 
 @media(max-width: 600px){
     .searchpad{
-        width: 17rem !important;
+        width: 18rem !important;
         margin: -4em 0 0 0 !important;
         /* height: 5rem !important; */
         font-size: 12px;

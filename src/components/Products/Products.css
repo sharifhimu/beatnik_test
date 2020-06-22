@@ -87,7 +87,7 @@
     /* background-color: black; */
 }
 
-@media(max-width: 283px){
+@media(max-width: 600px){
     .details{
         margin: 2em 0 0 8em !important;
         font-size: 10px;
@@ -115,7 +115,7 @@ border-radius: .45em;
     height: 2rem;
 }
 
-@media(max-width: 283px){
+@media(max-width: 600px){
     .btn{
         font-size: .6rem !important;
         width: 5rem !important;
@@ -133,7 +133,7 @@ border-radius: .45em;
     margin: 1em 0 0 6em !important;
 }
 
-@media(max-width: 283px){
+@media(max-width: 600px){
     .downarrowgrp{
         margin: 1em 0 0 2em !important;
     }

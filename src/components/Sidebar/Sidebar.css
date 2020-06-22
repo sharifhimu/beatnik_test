@@ -94,11 +94,11 @@
   @media(max-width: 600px){
     .sidenav1 {
       top: 15rem;
-      left: 14.9rem !important;
+      left: 18.9rem !important;
     }
 
     .sidenav2 {
       top: 23rem;
-      left: 15.9rem !important;
+      left: 19.9rem !important;
     }
 }
