@@ -91,7 +91,7 @@
       }
   } */
 
-  @media(max-width: 285px){
+  @media(max-width: 300px){
     .sidenav1 {
       top: 15rem;
       left: 14.9rem !important;
