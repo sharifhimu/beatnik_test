@@ -3,7 +3,7 @@
     margin: 0 0 0 6rem !important;
 }
 
-@media(max-width: 283px){
+@media(max-width: 600px){
     .cards{
         
         margin: 0 0 0 2rem !important;
@@ -11,7 +11,7 @@
 }
 
 .singlecard{
-    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    box-shadow: 0 2px 5px rgba(134, 105, 105, 0.3);
 }
 
 .cardimg{
